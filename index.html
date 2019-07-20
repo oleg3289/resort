@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>ViaTravel</title>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="main">
+		<div id="head"><div id="logo">ViaTravel</div></div>
+		<nav>
+			<ul id="menu">
+				<li><a class="go_to" href="#top">Выбрать тур</a></li>
+				<li><a href="#">Партнеры</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</nav>
+		<div id="content">
+			<p>
+				<span id="name">ViaTravel</span> - страна влечения и путешествий. Мы стремимся сделать свой сервис доступным каждому, семейным парам, студентам, влюбленным и романтикам , которые знают, что хотят получить от отдыха, стремятся от каждой поездки получить максимум приятных впечатлений, доверяют профессионалам, но и сами активно участвуют в создании неповторимой истории своих путешествий.
+			</p>
+			<p>
+		    	Мы готовы удовлетворить запросы самого взыскательного туриста и реализовать самые сокровенные Ваши мечты об отдыхе. С нами вы можете ощутить экзотику Таиланда, Сейшельских и Мальдивских островов; побродить по улицам Афин, Парижа, Хельсинки, насладиться курортами Египта, Турции, Испании, Франции. География деятельности Компании достаточно широка, чтобы удовлетворить любые вкусы.
+		    </p>
+		    <p>
+		    	Для путешественников открылась новая возможность - не связывать себя жесткими рамками групповой поездки, а самим составлять и планировать тур, выбирая наиболее комфортабельные условия отдыха.
+			</p>
+			<div id="service">
+		    	<h3>В сферу нашей деятельности входит:</h3>
+	    		<ul>
+				    <li>Бронирование гостиниц и апартаментов</li>
+				  	<li>Экзотические туры</li>
+				  	<li>Автобусные туры</li>
+				  	<li>Свадебные путешествия</li>
+				  	<li>Организация спортивных и культурных мероприятий</li>
+				  	<li>Индивидуальный и VIP – туризм</li>
+				  	<li>Оздоровительные туры, термальные курорты, Spa</li>
+				  	<li>Продажа авиабилетов по всем направлениям</li>
+				  	<li>Оформление загранпаспортов</li>
+				  	<li>Информация по визам, документы</li>
+	  			</ul>
+			</div>
+		</div>
+		<div id="scrollDown"><a class="go_to" href="#top">Выбрать тур</a></div>
+	<div id="blur">
+		<div id="wrapper">
+			
+			<div class="top" id="top"><a href="#1"><span class="about">Spectrum Hotel<br> Выезд: 10.05 на 8 дн./7 ноч.<br> Номер: Standard Room<br> Аэропорт: Киев</span></a></div>
+
+			<div class="top"><a href="№#"><span class="about">Karbel Sun Hotel<br> Выезд: 08.05 на 8 дн./7 ноч.<br> Номер: Studio<br> Аэропорт: Киев</span></a></div>
+
+			<div class="top"><a href="№#"><span class="about">Barbara Annex<br> Выезд: 05.05 на 8 дн./7 ноч.<br> Номер: Standard Room<br> Аэропорт: Киев</span></a></div>
+
+			<div><a href="№#"><span class="about">Royal Hotel Sharjah<br> Выезд: 12.05 на 8 дн./7 ноч.<br> Номер: Standard Room<br> Аэропорт: Киев</span></a></div>
+
+			<div><a href="№#"><span class="about">Dreams Beach<br> Выезд: 10.05 на 8 дн./7 ноч.<br> Номер: Studio<br> Аэропорт: Киев</span></a></div>
+
+			<div><a href="№#"><span class="about">Unver Hotel Marmaris<br> Выезд: 05.05 на 8 дн./7 ноч.<br> Номер: Standard Room<br> Аэропорт: Киев</span></a></div>
+
+		</div>
+	</div>
+	
+	
+	<!--JScode-->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    $('.go_to').click( function(){
+	var scroll_el = $(this).attr('href'); 
+        if ($(scroll_el).length != 0) { 
+	    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 750); 
+        }
+	    return false; 
+    });
+});
+	</script>
+
+</body>
+</html>
